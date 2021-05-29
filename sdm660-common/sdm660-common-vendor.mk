@@ -124,12 +124,33 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/aheadset_mic_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/aheadset_mic_to_aheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/aheadset_mic_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/aheadset_mic_to_aheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_aheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_aheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_dheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_dheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_aheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_aheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_dheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_dheadset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dheadset_mic_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dheadset_mic_to_dheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dheadset_mic_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dheadset_mic_to_dheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic1_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic1_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic1_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic1_to_headset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic2_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic2_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic2_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic2_to_headset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic3_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic3_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic3_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic3_to_headset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/fqcaudioloopback.sh:$(TARGET_COPY_OUT_VENDOR)/bin/fqcaudioloopback.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/headset_mic_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/headset_mic_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
@@ -252,6 +273,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891N1A_Dec2015.config:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891N1A_Dec2015.config \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_N1A_11_1_31_NL3_HQ.patch:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_N1A_11_1_31_NL3_HQ.patch \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716_S2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S2.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716_S3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S3.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
@@ -314,8 +337,29 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b06 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b07 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3.fw \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm1.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm10.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm11.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm12.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm13.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm14.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm15.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm16.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm17.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm18.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm2.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm3.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm4.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm5.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm6.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm7.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm8.txt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm9.txt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/novatek_h_glass_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_h_glass_ts_fw.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
